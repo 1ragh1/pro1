@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Photo Gallery</title>
+
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <div id="image">
+    Hover over an image below to display here.
+  </div>
+
+  <img class="preview"
+     src="images/img1.jpg"
+     alt="Giraffe"
+     onmouseover="upDate(this)"
+     onmouseleave="undo()">
+
+<img class="preview"
+     src="images/img2.jpg"
+     alt="Elephant"
+     onmouseover="upDate(this)"
+     onmouseleave="undo()">
+
+<img class="preview"
+     src="images/img3.jpg"
+     alt="Palm Tree"
+     onmouseover="upDate(this)"
+     onmouseleave="undo()">
+  
+
+  
+  <script src="script.js"></script>
+
+</body>
+</html>
